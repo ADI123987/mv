@@ -403,22 +403,22 @@ const index5OnePage = () => {
             <div className="col-xl-4 col-md-6">
               <div className="counter-item-three style-two counter-text-wrap wow fadeInRight delay-0-2s">
                 <i className="flaticon-software-development" />
-                <Counter end={15} />
+                <Counter end={4} />
                 <span className="counter-title">Years Of Experience</span>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
               <div className="counter-item-three style-two counter-text-wrap wow fadeInRight delay-0-4s">
                 <i className="flaticon-development" />
-                <Counter end={63} />
+                <Counter end={14} />
                 <span className="counter-title">Project Complete</span>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
               <div className="counter-item-three style-two counter-text-wrap wow fadeInRight delay-0-6s">
                 <i className="flaticon-branding" />
-                <Counter end={100} />
-                <span className="counter-title">Clients Satisfactions</span>
+                <Counter end={99} />
+                <span className="counter-title">Percent Satisfactions</span>
               </div>
             </div>
           </div>
@@ -430,8 +430,14 @@ const index5OnePage = () => {
         <div className="container container-1290">
           <div className="video-part style-three wow fadeInUp delay-0-2s">
             <img src="assets/images/video/video-five-bg.jpg" alt="Video" />
-            <a
+            {/* <a
               href="https://www.youtube.com/watch?v=9Y7ma241N8k"
+              className="mfp-iframe video-play"
+            >
+            <i className="fas fa-play" />
+            </a> */}
+            <a
+              href="/assets/videos/8064305-hd_1920_1080_30fps.mp4"
               className="mfp-iframe video-play"
             >
               <i className="fas fa-play" />

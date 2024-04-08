@@ -51,7 +51,7 @@ const About = () => {
           <div className="video-part style-two mb-40 wow fadeInUp delay-0-2s">
             <img src="assets/images/video/video-two-bg.jpg" alt="Video" />
             <a
-              href="https://www.youtube.com/watch?v=9Y7ma241N8k"
+              href="/assets/videos/8064305-hd_1920_1080_30fps.mp4"
               className="mfp-iframe video-play"
             >
               <i className="fas fa-play" />
@@ -415,15 +415,15 @@ const About = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-2s">
                 <i className="fal fa-check-circle" />
-                <Counter end={15} />
+                <Counter end={4} />
                 <span className="counter-title">Years Of Experience</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-3s">
                 <i className="fal fa-check-circle" />
-                <Counter end={3} extraClass={"k"} />
-                <span className="counter-title">Clients</span>
+                <Counter end={14} />
+                <span className="counter-title">Projects Completed</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
@@ -436,7 +436,7 @@ const About = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-5s">
                 <i className="fal fa-check-circle" />
-                <Counter end={100} extraClass={"%"}/>
+                <Counter end={99} extraClass={"%"}/>
                 <span className="counter-title">Percent, Client Satisfaction</span>
               </div>
             </div>

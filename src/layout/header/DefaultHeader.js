@@ -36,12 +36,12 @@ const DefaultHeader = ({ singleMenu, dark }) => {
             {/* Menu Button */}
             <div className="menu-btns">
               <div className="call-anytime">
-                {/* <div className="icon">
-                  <i className="fas fa-comments-alt" />
-                </div> */}
+                <div className="icon">
+                  <img src="/assets/images/logos/whatsapp.png" alt="WhatsApp Logo" style={{ width: '50px', height: 'auto' }} />
+                </div>
                 <div className="content">
-                  <span>Call Anytime</span>
-                  <a href="callto:985236425288">98 523 642 5288</a>
+                  <span>WhatsApp Us</span>
+                  <a href="https://api.whatsapp.com/send?phone=919970050313">9970050313</a>
                 </div>
               </div>
               {/* menu sidbar */}

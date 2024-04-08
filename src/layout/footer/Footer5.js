@@ -29,12 +29,12 @@ const Footer5 = ({ dark }) => {
               <ul className="list-style-two">
                 <li>
                   <i className="far fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:support@gmail.com">connect@maneuverventures.com</a>
                 </li>
-                <li>
+                {/* <li>
                   <i className="far fa-phone" />{" "}
                   <a href="callto:+000(123)45688">+000 (123) 456 88</a>
-                </li>
+                </li> */}
                 {/* <li>
                   <i className="far fa-clock" />{" "}
                   <span>Monday - Friday, 10am - 5pm</span>

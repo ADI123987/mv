@@ -20,7 +20,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row gap-80 pb-30">
+                {/* <div className="row gap-80 pb-30">
                   <div className="col-sm-6">
                     <div className="our-location-address mb-40">
                       <h5>New York</h5>
@@ -28,7 +28,7 @@ const Contact = () => {
                         55 One State Road, 2nd Block New York, United States
                       </p>
                       <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
+                        connect@maneuverventures.com
                       </a>
                       <br />
                       <a className="callto" href="callto:+00012345688">
@@ -41,7 +41,7 @@ const Contact = () => {
                       <h5>Australia</h5>
                       <p>67 One State Road, 2nd Block Melbourne, Australia</p>
                       <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
+                        connect@maneuverventures.com
                       </a>
                       <br />
                       <a className="callto" href="callto:+00012345688">
@@ -49,20 +49,22 @@ const Contact = () => {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <h4>Follow Us</h4>
                 <div className="social-style-two pt-15">
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
+                  <a href="https://twitter.com/ManeuverVenture">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                      <path fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                    </svg>
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-linkedin-in" />
+                  {/* <a href="#">
+              <i className="fab fa-facebook-f" />
+            </a>
+            <a href="#">
+              <i className="fab fa-instagram" />
+            </a> */}
+                  <a href="https://www.linkedin.com/company/maneuverventures/">
+                    <i className="fab fa-linkedin" />
                   </a>
                 </div>
               </div>
